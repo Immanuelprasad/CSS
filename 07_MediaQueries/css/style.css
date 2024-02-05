@@ -1,0 +1,92 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font: 1.5rem "sans-serif";
+    min-height: 100vh;   
+    background-image: radial-gradient(whitesmoke, gray);
+    display: flex;
+    flex-direction: column;
+}
+header, footer, nav, main
+{
+    display: grid;
+    place-content: center;
+    grid-template-columns: 100%;
+    text-align: center;
+}
+header, footer
+{
+    background-color: brown;
+    color: tan;
+    position: sticky;
+}
+header
+{
+    top: 0;
+}
+nav
+{
+    display: none;
+}
+main
+{
+    flex-grow: 1;
+}
+footer
+{
+    bottom: 0;
+}
+/* Small */
+@media screen and (min-width: 576px)
+{
+    body
+    {
+        background-color: aqua;
+        background-image: radial-gradient(whitesmoke, green);
+    }
+}
+/* Medium */
+@media screen and (min-width: 768px)
+{
+    body
+    {
+        background-color: gold;
+        background-image: radial-gradient(whitesmoke, gold);
+    }
+}
+/* Large */
+@media screen and (min-width: 992px)
+{
+    body
+    {
+        background-color: firebrick;
+        background-image: radial-gradient(whitesmoke, firebrick);
+    }
+}
+/* Extra Large */
+@media screen and (min-width: 1200px)
+{
+    body
+    {
+        background-color: rebeccapurple;
+        background-image: radial-gradient(whitesmoke, rebeccapurple);
+    }
+}
+/* Mobile Landscape */
+@media screen and (max-height : 425px) and (min-aspect-ratio: 7/4)
+{
+    body
+    {
+        background-color: dodgerblue;
+        background-image: radial-gradient(whitesmoke, dodgerblue);
+    }
+    h1, h2
+    {
+        font-size: 1.5rem;
+    }
+}

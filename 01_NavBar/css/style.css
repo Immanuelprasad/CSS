@@ -1,0 +1,23 @@
+*
+{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+ul
+{
+    list-style-type: none;
+    padding: 0.5rem;
+    text-align: right;
+    background-color: whitesmoke;
+}
+li
+{
+    display: inline-block;
+    margin-inline: 1rem;
+}

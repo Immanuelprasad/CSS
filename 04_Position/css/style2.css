@@ -1,0 +1,62 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+section
+{
+    height: 100vh;
+}
+.blue
+{
+    background-color: blue;
+}
+.red
+{
+    background-color: red;
+}
+.green
+{
+    background-color: green;
+}
+header, footer
+{
+    color: whitesmoke;
+    text-align: center;
+    height: 100px;
+}
+header
+{
+    position: sticky;
+    top: 0;
+    font-size: 5rem;
+}
+footer
+{
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 5rem;
+}
+footer a
+{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.social
+{
+    background-color: brown;
+    color: bisque;
+    font-size: inherit;
+    padding: 1.5rem;
+    position: fixed;
+    top: 30%;
+    left: 0;
+    z-index: 1;
+}
